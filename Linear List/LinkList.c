@@ -39,6 +39,7 @@ bool initList(LinkList *List){
     (*List) -> next = NULL;
     return true;
 }
+
 //Çó±í³¤
 int Length(LinkList List){
     int length = 0;
